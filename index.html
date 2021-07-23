@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chopmas pitsa :)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Pitsa buyurtma qilish</h1>
+        <div class="main-section">
+            <div class="left-side">
+                <h2 class="secondary-title">Noni qanday bo'lsin?</h2>
+                <select name="pitsa" id="pitsa-type">
+                    <option value="yupqa">Yupqa</option>
+                    <option value="qalin">Qalin</option>
+                    <option value="buxanka">Buxanka</option>
+                </select>
+
+                <h2 class="secondary-title">Kattaligi</h2>
+                <div class="btns-wrapper">
+                    <button class="size-btn">25 cm</button>
+                    <button class="size-btn">30 cm</button>
+                    <button class="size-btn">35 cm</button>
+                    <button class="size-btn">40 cm</button>
+                </div>
+                <h2 class="secondary-title">Ustiga nima solaylik?</h2>
+                <div class="label-wrapper label-wrapper-first">
+                    <label><input type="checkbox" value="Pomidor"><span>Pomidor</span></label>
+                    <label><input type="checkbox" value="Tuzlangan bodring"><span>Tuzlangan bodring</span></label>
+                    <label><input type="checkbox" value="Kurka go'shti"><span>Kurka go'shti</span></label>
+                    <label><input type="checkbox" value="Qo'ziqorin"><span>Qo'ziqorin</span></label>
+                    <label><input type="checkbox" value="Zaytun"><span>Zaytun</span></label>
+                    <label><input type="checkbox" value="Qazi"><span>Qazi</span></label>
+                </div>
+                <h2 class="secondary-title">Qo'shimchalar</h2>
+                <div class="label-wrapper label-wrapper-second">
+                    <label><input type="checkbox" value="Achchiq sous"><span>Achchiq sous</span></label>
+                    <label><input type="checkbox" value="Sosiskali bort"><span>Sosiskali</span></label>
+                    <label><input type="checkbox" value="Rayhon"><span>Rayhon</span></label>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="non">
+                    <span class="type-title">Non: </span>
+                    <span class="non-value"></span>
+                </div>
+                <div class="size">
+                    <span class="type-title">Kattaligi: </span>
+                    <span class="siz-value"></span>
+                </div>
+                <div class="ustiga-qushimcha">
+                    <span class="type-title">Ustida:</span>
+                    <ul class="ustida-list"></ul>
+                </div>
+                <div class="qushimcha">
+                    <span class="type-title">Qo'shimcha:</span>
+                    <ul class="qushimcha-list"></ul>
+                </div>
+                <div class="main-cost">
+                    <span class="type-title">Narxi: </span>
+                    <span class="main-cost-cost"><span class="main-cost-number"></span> so'm</span>
+                </div>
+                <button class="submit-btn" type="submit">Buyurtma berish</button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="modal">
+        <div class="modal-wrapper">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h2 class="modal-title">Sizning tanlovingiz!</h2>
+            <div class="modal-main-section">
+                <div class="non">
+                    <span class="type-title">Non: </span>
+                    <span class="modal-non-value"></span>
+                </div>
+                <div class="size">
+                    <span class="type-title">Kattaligi: </span>
+                    <span class="modal-siz-value"></span>
+                </div>
+                <div class="ustiga-qushimcha">
+                    <span class="type-title">Ustida:</span>
+                    <ul class="modal-ustida-list"></ul>
+                </div>
+                <div class="qushimcha">
+                    <span class="type-title">Qo'shimcha:</span>
+                    <ul class="modal-qushimcha-list"></ul>
+                </div>
+
+                <div class="cost">
+                    <span class="type-title">Narxi: </span>
+                    <span class="cost-cost"><span class="cost-number"></span> so'm</span>
+                </div>
+            </div>
+            <form action="/">
+                <input type="submit" class="submit-btn" value="Buyurtma berish">
+            </form>
+        </div>
+    </div> -->
+
+    <script src="https://kit.fontawesome.com/c955ab8686.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
